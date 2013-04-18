@@ -1,0 +1,25 @@
+{
+    "name": "lamb/laravel-postgis-database",
+    "description": "An extended Postgres driver for Laravel 4 that provides support for PostGIS features.",
+    "keywords": ["postgis", "database", "laravel"],
+    "license": "MIT", 
+    "authors": [
+        {
+            "name": "Greg Lamb",
+            "email": "email@greglamb.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Lamb\\LaravelPostgisDatabase": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
