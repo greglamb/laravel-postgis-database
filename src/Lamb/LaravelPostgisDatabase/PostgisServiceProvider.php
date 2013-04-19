@@ -2,7 +2,7 @@
 
 use Illuminate\Support\ServiceProvider;
 
-class PostgisServiceProvider extends ServiceProvider {
+class PostgisDatabaseServiceProvider extends ServiceProvider {
 
 	/**
 	 * Indicates if loading of the provider is deferred.

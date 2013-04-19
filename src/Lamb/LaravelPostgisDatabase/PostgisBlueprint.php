@@ -1,6 +1,8 @@
 <?php namespace Lamb\LaravelPostgisDatabase;
 
-class PostgisBlueprint extends \Illuminate\Database\Schema\Blueprint {
+use Illuminate\Database\Schema\Blueprint;
+
+class PostgisBlueprint extends Blueprint {
 
 	public function point($column)
 	{

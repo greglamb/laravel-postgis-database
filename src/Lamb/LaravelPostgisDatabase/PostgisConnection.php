@@ -1,6 +1,8 @@
 <?php namespace Lamb\LaravelPostgisDatabase;
 
-class PostgisConnection extends \Illuminate\Database\PostgresConnection {
+use Illuminate\Database\PostgresConnection;
+
+class PostgisConnection extends PostgresConnection {
 
 	protected function getDefaultQueryGrammar()
 	{
