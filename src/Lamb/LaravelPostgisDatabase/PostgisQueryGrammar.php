@@ -1,3 +1,5 @@
 <?php namespace Lamb\LaravelPostgisDatabase;
 
-class PostgisQueryGrammar extends \Illuminate\Database\Query\Grammars\PostgresGrammar { }
+use Illuminate\Database\Query\Grammars\PostgresGrammar;
+
+class PostgisQueryGrammar extends PostgresGrammar { }

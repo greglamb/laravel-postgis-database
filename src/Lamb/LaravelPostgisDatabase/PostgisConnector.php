@@ -1,3 +1,5 @@
 <?php namespace Lamb\LaravelPostgisDatabase;
 
-class PostgisConnector extends \Illuminate\Database\Connectors\PostgresConnector { }
+use Illuminate\Database\Connectors\PostgresConnector;
+
+class PostgisConnector extends PostgresConnector { }

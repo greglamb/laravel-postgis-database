@@ -1,8 +1,9 @@
 <?php namespace Lamb\LaravelPostgisDatabase;
 
 use Illuminate\Support\Fluent;
+use Illuminate\Database\Schema\Grammars\PostgresGrammar;
 
-class PostgisSchemaGrammar extends \Illuminate\Database\Schema\Grammars\PostgresGrammar {
+class PostgisSchemaGrammar extends PostgresGrammar {
 
 	protected function typePoint(Fluent $column)
 	{

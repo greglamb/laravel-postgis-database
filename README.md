@@ -1,6 +1,6 @@
 # laravel-postgis-database
 
-Provides an extended Postgres driver for Laravel 4 that provides support for PostGIS features.
+Provides an extended Postgres driver for Laravel 4 that provides support for PostGIS features
 
 # features
 
@@ -27,7 +27,7 @@ Add it to the list of providers
 
 ```php
 'providers' => array(
-  'Lamb\LaravelPostgisDatabase\PostgisServiceProvider'
+  'Lamb\LaravelPostgisDatabase\PostgisDatabaseServiceProvider'
 )
 ```
 
