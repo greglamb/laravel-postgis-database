@@ -14,5 +14,9 @@ class PostgisSchemaGrammar extends PostgresGrammar {
 	{
 		return 'geography(Polygon,4326)';
 	}
-
+	
+	protected function typeBson(Fluent $column)
+	{
+		return 'bson';
+	}
 }
