@@ -7,12 +7,16 @@ class PostgisSchemaGrammar extends PostgresGrammar {
 
 	protected function typePoint(Fluent $column)
 	{
-		return 'geography(Point,4326)';
+		return 'point';
 	}
 	
 	protected function typePolygon(Fluent $column)
 	{
-		return 'geography(Polygon,4326)';
+		return 'polygon';
 	}
-
+	
+	protected function typeBson(Fluent $column)
+	{
+		return 'bson';
+	}
 }
