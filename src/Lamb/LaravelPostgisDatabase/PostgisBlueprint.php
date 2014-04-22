@@ -14,4 +14,8 @@ class PostgisBlueprint extends Blueprint {
 		return $this->addColumn('polygon', $column);
 	}
 
+	public function bson($column)
+	{
+		return $this->addColumn('bson', $column);
+	}
 }
